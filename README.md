@@ -3,6 +3,9 @@ This Python project analyzes YouTube video comments in any language by translati
 Sure, Yugandhar! Here's a clean and professional **`README.md`** file for your **Multilingual YouTube Comment Sentiment Analyzer** project:
 
 ---
+ Dependencies:
+pip install requests matplotlib textblob deep-translator emoji
+python -m textblob.download_corpora
 
 ````markdown
 # YouTube Comment Sentiment Analyzer (Multilingual + Emoji)
@@ -10,6 +13,24 @@ Sure, Yugandhar! Here's a clean and professional **`README.md`** file for your *
 This Python project analyzes comments from any YouTube video by detecting their language, translating them to English, and evaluating sentiment using both text polarity and emoji emotion scoring. Results are visualized in a clean pie chart.
 
 ---
+How to Get Your YouTube Data API Key
+Go to the Google Cloud Console.
+
+Click “Select a Project” → then “New Project”.
+
+Name your project and click “Create”.
+
+In the top search bar, type YouTube Data API v3 → click it → click “Enable”.
+
+Go to APIs & Services > Credentials.
+
+Click “+ Create Credentials” → choose API Key.
+
+Copy your key and paste it in youtube_sentiment_analyzer.py:
+
+
+ You can restrict the API key to allow only YouTube Data API access for added security.
+
 
 ## Features
 
