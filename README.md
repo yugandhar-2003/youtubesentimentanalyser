@@ -5,23 +5,23 @@ Sure, Yugandhar! Here's a clean and professional **`README.md`** file for your *
 ---
 
 ````markdown
-# 🎬 YouTube Comment Sentiment Analyzer (Multilingual + Emoji)
+# YouTube Comment Sentiment Analyzer (Multilingual + Emoji)
 
 This Python project analyzes comments from any YouTube video by detecting their language, translating them to English, and evaluating sentiment using both text polarity and emoji emotion scoring. Results are visualized in a clean pie chart.
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🌍 Supports comments in **any language** (auto-detection + translation)
-- 😃 Includes **emoji sentiment** to improve accuracy
-- 📊 Visualizes sentiments as **Positive**, **Neutral**, and **Negative**
-- 🧠 Uses `TextBlob` + `GoogleTranslator` + `emoji` libraries
-- 🔑 Integrates with YouTube Data API v3
+- Supports comments in **any language** (auto-detection + translation)
+- Includes **emoji sentiment** to improve accuracy
+- Visualizes sentiments as **Positive**, **Neutral**, and **Negative**
+- Uses `TextBlob` + `GoogleTranslator` + `emoji` libraries
+- Integrates with YouTube Data API v3
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 Install the required Python libraries:
 
@@ -32,7 +32,7 @@ python -m textblob.download_corpora
 
 ---
 
-## 🔧 Configuration
+## Configuration
 
 Open `youtube_sentiment_analyzer.py` and update the following variables:
 
@@ -43,7 +43,7 @@ VIDEO_ID = "YOUR_YOUTUBE_VIDEO_ID"
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ```bash
 python youtube_sentiment_analyzer.py
@@ -56,31 +56,31 @@ You’ll see:
 
 ---
 
-## 📌 Example Output
+## Example Output
 
 ```
-📥 Fetching comments for video ID: dQw4w9WgXcQ
-✅ Fetched 50 comments.
-🧠 Analyzing sentiments...
-📊 Visualizing results...
+ Fetching comments for video ID: dQw4w9WgXcQ
+ Fetched 50 comments.
+ Analyzing sentiments...
+ Visualizing results...
 
-🎯 Emoji-Aware Summary:
-😊 Positive: 33
-😐 Neutral : 10
-😠 Negative: 7
+ Emoji-Aware Summary:
+ Positive: 33
+ Neutral : 10
+ Negative: 7
 ```
 
 ---
 
-## 💡 Future Improvements
+##  Future Improvements
 
-* 🌐 Gradio Web UI
-* 📁 Export to CSV
-* 📈 Emoji trend graph
-* 💬 Show top positive/negative comments
+* Gradio Web UI
+* Export to CSV
+* Emoji trend graph
+* Show top positive/negative comments
 
 ---
-## 👨‍💻 Author
+##  Author
 
 [Yugandhar]((https://github.com/yugandhar-2003)) – B.Tech CSE, BVRIT
 
